@@ -550,9 +550,7 @@
       }
       loadIfReady();
     } catch (err) {
-      load({
-        error: err
-      });
+        console.warn(err)
     }
   };
 
